@@ -18,5 +18,5 @@ end
 
 group :doc do
   gem 'yard'
-  gem 'redcarpet'
+  gem 'redcarpet', '>= 3.5.1'
 end
