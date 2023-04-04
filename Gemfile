@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 # Specify your gem's dependencies in nominet-epp.gemspec
 gemspec
 
-gem 'rake'
+gem 'rake', '>= 12.3.3'
 gem 'epp-client', :github => "m247/epp-client"
 
 group :development do
@@ -17,6 +17,6 @@ group :test do
 end
 
 group :doc do
-  gem 'yard'
-  gem 'redcarpet'
+  gem 'yard', '>= 0.9.20'
+  gem 'redcarpet', '>= 3.5.1'
 end
