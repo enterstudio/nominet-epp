@@ -8,7 +8,7 @@ gem 'epp-client', :github => "m247/epp-client"
 
 group :development do
   gem 'pry'
-  gem 'pry-doc'
+  gem 'pry-doc', '>= 0.5.0'
   gem 'awesome_print'
 end
 
@@ -17,6 +17,6 @@ group :test do
 end
 
 group :doc do
-  gem 'yard'
+  gem 'yard', '>= 0.9.35'
   gem 'redcarpet'
 end
