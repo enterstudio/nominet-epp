@@ -8,12 +8,12 @@ gem 'epp-client', :github => "m247/epp-client"
 
 group :development do
   gem 'pry'
-  gem 'pry-doc'
+  gem 'pry-doc', '>= 0.5.0'
   gem 'awesome_print'
 end
 
 group :test do
-  gem 'shoulda'
+  gem 'shoulda', '>= 3.6.0'
 end
 
 group :doc do
